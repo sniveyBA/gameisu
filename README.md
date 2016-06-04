@@ -1,1 +1,2 @@
-# gameisu
+# Github is to fucking complicated
+Alright?
