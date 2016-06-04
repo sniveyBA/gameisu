@@ -1,2 +1,2 @@
-# Github is to fucking complicated
+# Github is too fucking complicated
 Alright?
