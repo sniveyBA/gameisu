@@ -11,4 +11,9 @@
         showSecond.Show()
 
     End Sub
+
+    Private Sub btnLevel3_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnLevel3.Click
+        Dim showSecond As New frmLevel3
+        showSecond.Show()
+    End Sub
 End Class
