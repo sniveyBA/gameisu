@@ -23,3 +23,4 @@ C:\Users\Susan\Documents\Visual Studio 2008\Projects\HelloWorld\HelloWorld\obj\D
 C:\Users\Susan\Documents\Visual Studio 2008\Projects\HelloWorld\HelloWorld\obj\Debug\HelloWorld.frmLevel1.resources
 C:\Users\Susan\Documents\Visual Studio 2008\Projects\HelloWorld\HelloWorld\obj\Debug\HelloWorld.frmLearn.resources
 C:\Users\Susan\Documents\Visual Studio 2008\Projects\HelloWorld\HelloWorld\obj\Debug\HelloWorld.frmLearnBox.resources
+C:\Users\Susan\Documents\Visual Studio 2008\Projects\HelloWorld\HelloWorld\obj\Debug\HelloWorld.frmLevel3.resources

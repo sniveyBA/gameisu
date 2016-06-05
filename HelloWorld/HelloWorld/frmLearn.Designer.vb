@@ -45,6 +45,7 @@ Partial Class frmLearn
         Me.radAustralia = New System.Windows.Forms.RadioButton
         Me.Label1 = New System.Windows.Forms.Label
         Me.radSaudi = New System.Windows.Forms.RadioButton
+        Me.radExplore = New System.Windows.Forms.RadioButton
         Me.SuspendLayout()
         '
         'radCanada
@@ -365,6 +366,19 @@ Partial Class frmLearn
         Me.radSaudi.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         Me.radSaudi.UseVisualStyleBackColor = False
         '
+        'radExplore
+        '
+        Me.radExplore.BackColor = System.Drawing.Color.Transparent
+        Me.radExplore.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.radExplore.ForeColor = System.Drawing.Color.Black
+        Me.radExplore.Location = New System.Drawing.Point(12, 12)
+        Me.radExplore.Name = "radExplore"
+        Me.radExplore.Size = New System.Drawing.Size(104, 24)
+        Me.radExplore.TabIndex = 24
+        Me.radExplore.TabStop = True
+        Me.radExplore.Text = "Explore"
+        Me.radExplore.UseVisualStyleBackColor = False
+        '
         'frmLearn
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -372,6 +386,7 @@ Partial Class frmLearn
         Me.BackgroundImage = Global.HelloWorld.My.Resources.Resources.WorldMap
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(919, 522)
+        Me.Controls.Add(Me.radExplore)
         Me.Controls.Add(Me.radSaudi)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.radAustralia)
@@ -424,4 +439,5 @@ Partial Class frmLearn
     Friend WithEvents radAustralia As System.Windows.Forms.RadioButton
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents radSaudi As System.Windows.Forms.RadioButton
+    Friend WithEvents radExplore As System.Windows.Forms.RadioButton
 End Class

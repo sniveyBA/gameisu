@@ -26,47 +26,72 @@ Partial Class frmLearnBox
         Me.lblCapital = New System.Windows.Forms.Label
         Me.lblHead = New System.Windows.Forms.Label
         Me.lblCountry = New System.Windows.Forms.Label
+        Me.picMonument = New System.Windows.Forms.PictureBox
+        CType(Me.picMonument, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'lblMonument
         '
-        Me.lblMonument.Location = New System.Drawing.Point(159, 72)
+        Me.lblMonument.BackColor = System.Drawing.Color.Transparent
+        Me.lblMonument.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblMonument.Location = New System.Drawing.Point(291, 314)
         Me.lblMonument.Name = "lblMonument"
-        Me.lblMonument.Size = New System.Drawing.Size(165, 54)
+        Me.lblMonument.Size = New System.Drawing.Size(165, 20)
         Me.lblMonument.TabIndex = 0
         '
         'lblCapital
         '
-        Me.lblCapital.Location = New System.Drawing.Point(159, 141)
+        Me.lblCapital.BackColor = System.Drawing.Color.Transparent
+        Me.lblCapital.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblCapital.Location = New System.Drawing.Point(291, 195)
         Me.lblCapital.Name = "lblCapital"
-        Me.lblCapital.Size = New System.Drawing.Size(165, 54)
+        Me.lblCapital.Size = New System.Drawing.Size(165, 21)
         Me.lblCapital.TabIndex = 1
         '
         'lblHead
         '
-        Me.lblHead.Location = New System.Drawing.Point(145, 231)
+        Me.lblHead.BackColor = System.Drawing.Color.Transparent
+        Me.lblHead.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblHead.Location = New System.Drawing.Point(291, 251)
         Me.lblHead.Name = "lblHead"
-        Me.lblHead.Size = New System.Drawing.Size(165, 54)
+        Me.lblHead.Size = New System.Drawing.Size(165, 22)
         Me.lblHead.TabIndex = 2
         '
         'lblCountry
         '
-        Me.lblCountry.Location = New System.Drawing.Point(159, 18)
+        Me.lblCountry.BackColor = System.Drawing.Color.Transparent
+        Me.lblCountry.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblCountry.Location = New System.Drawing.Point(291, 130)
         Me.lblCountry.Name = "lblCountry"
-        Me.lblCountry.Size = New System.Drawing.Size(165, 54)
+        Me.lblCountry.Size = New System.Drawing.Size(162, 23)
         Me.lblCountry.TabIndex = 3
+        Me.lblCountry.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'picMonument
+        '
+        Me.picMonument.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.picMonument.Location = New System.Drawing.Point(61, 114)
+        Me.picMonument.Name = "picMonument"
+        Me.picMonument.Size = New System.Drawing.Size(182, 174)
+        Me.picMonument.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.picMonument.TabIndex = 4
+        Me.picMonument.TabStop = False
         '
         'frmLearnBox
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(508, 342)
+        Me.BackgroundImage = Global.HelloWorld.My.Resources.Resources.Explore___postcard_cropped_2
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.ClientSize = New System.Drawing.Size(554, 391)
+        Me.Controls.Add(Me.picMonument)
         Me.Controls.Add(Me.lblCountry)
         Me.Controls.Add(Me.lblHead)
         Me.Controls.Add(Me.lblCapital)
         Me.Controls.Add(Me.lblMonument)
         Me.Name = "frmLearnBox"
         Me.Text = "frmLearnBox"
+        CType(Me.picMonument, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -74,4 +99,5 @@ Partial Class frmLearnBox
     Friend WithEvents lblCapital As System.Windows.Forms.Label
     Friend WithEvents lblHead As System.Windows.Forms.Label
     Friend WithEvents lblCountry As System.Windows.Forms.Label
+    Friend WithEvents picMonument As System.Windows.Forms.PictureBox
 End Class

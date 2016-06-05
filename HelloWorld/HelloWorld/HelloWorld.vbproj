@@ -106,6 +106,12 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="head.vb" />
+    <Compile Include="Level3.Designer.vb">
+      <DependentUpon>Level3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Level3.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="mon.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
@@ -139,6 +145,9 @@
     <EmbeddedResource Include="frmPlay.resx">
       <DependentUpon>frmPlay.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Level3.resx">
+      <DependentUpon>Level3.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
@@ -159,6 +168,90 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\WorldMap.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Australia - Sydney Opera House.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Brazil - Christ the Redeemer.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Canada -CN Tower.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\China - Great Wall of China.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Egypt - Sphinx.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\England - Big Ben.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ethiopia - Tiglachin Monument.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\France - Eiffel Tower.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Germany - Brandenburg Gate.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\India - Taj Mahal.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Israel - Western Wall.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Italy - Colosseum.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Japan - Hiroshima Peace Monument.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mexico - Independence Angel.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Peru - Machu Pichu.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Russia - Kremelin.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Saudi Arabia -Mecca.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\South Africa - Cradle of Humankind.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\South Korea - Dongdaemun Gate.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Turkey - Blue Mosque.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\USA - White House.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Philippines - Rizal Park.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Explore - postcard%28cropped%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Explore - postcard%28cropped%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Explore - postcard%28cropped%292.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ghana - independence arch.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Level 3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Laval 3.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
