@@ -23,4 +23,17 @@ C:\Users\Susan\Documents\Visual Studio 2008\Projects\HelloWorld\HelloWorld\obj\D
 C:\Users\Susan\Documents\Visual Studio 2008\Projects\HelloWorld\HelloWorld\obj\Debug\HelloWorld.frmLevel1.resources
 C:\Users\Susan\Documents\Visual Studio 2008\Projects\HelloWorld\HelloWorld\obj\Debug\HelloWorld.frmLearn.resources
 C:\Users\Susan\Documents\Visual Studio 2008\Projects\HelloWorld\HelloWorld\obj\Debug\HelloWorld.frmLearnBox.resources
-C:\Users\Susan\Documents\Visual Studio 2008\Projects\HelloWorld\HelloWorld\obj\Debug\HelloWorld.frmLevel3.resources
+C:\Users\Tamara\Downloads\gameisu-master\gameisu-master\HelloWorld\HelloWorld\obj\Debug\HelloWorld.exe
+C:\Users\Tamara\Downloads\gameisu-master\gameisu-master\HelloWorld\HelloWorld\obj\Debug\HelloWorld.xml
+C:\Users\Tamara\Downloads\gameisu-master\gameisu-master\HelloWorld\HelloWorld\obj\Debug\HelloWorld.pdb
+C:\Users\Tamara\Downloads\gameisu-master\gameisu-master\HelloWorld\HelloWorld\bin\Debug\HelloWorld.exe
+C:\Users\Tamara\Downloads\gameisu-master\gameisu-master\HelloWorld\HelloWorld\bin\Debug\HelloWorld.pdb
+C:\Users\Tamara\Downloads\gameisu-master\gameisu-master\HelloWorld\HelloWorld\bin\Debug\HelloWorld.xml
+C:\Users\Tamara\Downloads\gameisu-master\gameisu-master\HelloWorld\HelloWorld\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Tamara\Downloads\gameisu-master\gameisu-master\HelloWorld\HelloWorld\obj\Debug\HelloWorld.frmLearn.resources
+C:\Users\Tamara\Downloads\gameisu-master\gameisu-master\HelloWorld\HelloWorld\obj\Debug\HelloWorld.frmLearnBox.resources
+C:\Users\Tamara\Downloads\gameisu-master\gameisu-master\HelloWorld\HelloWorld\obj\Debug\HelloWorld.frmLevel1.resources
+C:\Users\Tamara\Downloads\gameisu-master\gameisu-master\HelloWorld\HelloWorld\obj\Debug\HelloWorld.frmExplore.resources
+C:\Users\Tamara\Downloads\gameisu-master\gameisu-master\HelloWorld\HelloWorld\obj\Debug\HelloWorld.frmPlay.resources
+C:\Users\Tamara\Downloads\gameisu-master\gameisu-master\HelloWorld\HelloWorld\obj\Debug\HelloWorld.Resources.resources
+C:\Users\Tamara\Downloads\gameisu-master\gameisu-master\HelloWorld\HelloWorld\obj\Debug\HelloWorld.vbproj.GenerateResource.Cache

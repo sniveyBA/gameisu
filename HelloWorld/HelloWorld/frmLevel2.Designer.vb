@@ -22,8 +22,85 @@ Partial Class frmLevel2
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        components = New System.ComponentModel.Container
+        Me.Button1 = New System.Windows.Forms.Button
+        Me.radOne = New System.Windows.Forms.RadioButton
+        Me.radTwo = New System.Windows.Forms.RadioButton
+        Me.RadioButton3 = New System.Windows.Forms.RadioButton
+        Me.RadioButton4 = New System.Windows.Forms.RadioButton
+        Me.SuspendLayout()
+        '
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(206, 355)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(75, 23)
+        Me.Button1.TabIndex = 0
+        Me.Button1.Text = "Button1"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
+        'radOne
+        '
+        Me.radOne.AutoSize = True
+        Me.radOne.Location = New System.Drawing.Point(156, 255)
+        Me.radOne.Name = "radOne"
+        Me.radOne.Size = New System.Drawing.Size(90, 17)
+        Me.radOne.TabIndex = 1
+        Me.radOne.TabStop = True
+        Me.radOne.Text = "RadioButton1"
+        Me.radOne.UseVisualStyleBackColor = True
+        '
+        'radTwo
+        '
+        Me.radTwo.AutoSize = True
+        Me.radTwo.Location = New System.Drawing.Point(304, 256)
+        Me.radTwo.Name = "radTwo"
+        Me.radTwo.Size = New System.Drawing.Size(90, 17)
+        Me.radTwo.TabIndex = 2
+        Me.radTwo.TabStop = True
+        Me.radTwo.Text = "RadioButton2"
+        Me.radTwo.UseVisualStyleBackColor = True
+        '
+        'RadioButton3
+        '
+        Me.RadioButton3.AutoSize = True
+        Me.RadioButton3.Location = New System.Drawing.Point(431, 278)
+        Me.RadioButton3.Name = "RadioButton3"
+        Me.RadioButton3.Size = New System.Drawing.Size(90, 17)
+        Me.RadioButton3.TabIndex = 3
+        Me.RadioButton3.TabStop = True
+        Me.RadioButton3.Text = "RadioButton3"
+        Me.RadioButton3.UseVisualStyleBackColor = True
+        '
+        'RadioButton4
+        '
+        Me.RadioButton4.AutoSize = True
+        Me.RadioButton4.Location = New System.Drawing.Point(573, 265)
+        Me.RadioButton4.Name = "RadioButton4"
+        Me.RadioButton4.Size = New System.Drawing.Size(90, 17)
+        Me.RadioButton4.TabIndex = 4
+        Me.RadioButton4.TabStop = True
+        Me.RadioButton4.Text = "RadioButton4"
+        Me.RadioButton4.UseVisualStyleBackColor = True
+        '
+        'frmLevel2
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.ClientSize = New System.Drawing.Size(919, 521)
+        Me.Controls.Add(Me.RadioButton4)
+        Me.Controls.Add(Me.RadioButton3)
+        Me.Controls.Add(Me.radTwo)
+        Me.Controls.Add(Me.radOne)
+        Me.Controls.Add(Me.Button1)
+        Me.Name = "frmLevel2"
         Me.Text = "frmLevel2"
+        Me.ResumeLayout(False)
+        Me.PerformLayout()
+
     End Sub
+    Friend WithEvents Button1 As System.Windows.Forms.Button
+    Friend WithEvents radOne As System.Windows.Forms.RadioButton
+    Friend WithEvents radTwo As System.Windows.Forms.RadioButton
+    Friend WithEvents RadioButton3 As System.Windows.Forms.RadioButton
+    Friend WithEvents RadioButton4 As System.Windows.Forms.RadioButton
 End Class

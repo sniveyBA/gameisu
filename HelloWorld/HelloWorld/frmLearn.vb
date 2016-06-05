@@ -2,10 +2,6 @@
 
     Public Shared shareMon As Integer
 
-    Private Sub frmLearn_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
-        radExplore.Checked = True
-    End Sub
-
     Private Sub radAustralia_CheckedChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles radAustralia.CheckedChanged
         If radAustralia.Checked = True Then
             shareMon = 1
@@ -179,7 +175,4 @@
             showSecond.Show()
         End If
     End Sub
-
-    
-   
 End Class
